@@ -122,12 +122,12 @@ I18n.translations = {
     greeting: 'Hi!',
   },
   fr: {
-    greeting: 'Bonjour!',
+    greeting: 'Bonjour !',
   },
 };
 ```
 
-This will render `Hi!` for devices with the English locale, and `Bonjour!` for devices with the French locale.
+This will render `Hi!` for devices with the English locale, and `Bonjour !` for devices with the French locale.
 
 ## Usage with multiple location files
 
@@ -141,7 +141,7 @@ export default {
 // app/i18n/locales/fr.js
 
 export default {  
-  greeting: 'Bonjour!'
+  greeting: 'Bonjour !'
 };
 
 // app/i18n/i18n.js
